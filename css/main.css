@@ -1,0 +1,155 @@
+/*======== Globals ========*/
+* {
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+/*======== Header ========*/
+/* Header : Nav */
+.container-fluid {
+    background: url("../assets/bg-cover.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container .navbar-brand img {
+    height: 35px;
+}
+
+ul.navbar-nav {
+    margin-right: 15px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    font-size: 15px;
+    color: #f5f5f5;
+    margin-left: 20px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #2b2b2b;
+}
+
+.navbar.scrolled {
+    background-color: #2b2b2b !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled ul.navbar-nav li.nav-item a.nav-link{
+    color:#f5f5f5;
+}
+
+.navbar.scrolled ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #a5a5a5;
+}
+
+@media (max-width:575px) {
+    .navbar {
+        background-color: #2b2b2b !important;
+        transition: background-color 200ms linear;
+    }
+
+    ul.navbar-nav li.nav-item a.nav-link {
+        color: #f5f5f5;
+    }
+
+    ul.navbar-nav li.nav-item a.nav-link:hover {
+        color: #a5a5a5;
+    }
+}
+
+/* Header : Title */
+
+.new {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    top: 35vh;
+}
+
+.row.content .l-text,
+.row.content .r-text{
+    font-family: "Roboto Slab";
+}
+
+.row.content .l-text {
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+    line-height: 58px;
+    padding-right: 20px;
+}
+
+.row.content .r-text {
+    color: #2b2b2b;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 38px;
+    padding-left: 20px;
+}
+
+.row.content .r-text .i {
+    position: relative;
+    left: 6px;
+    height: 120px;
+    width: 6px;
+    background-color: #2b2b2b;
+    float: left;
+}
+
+.row.cta a {
+    color: #f5f5f5;
+    background-color: #2b2b2b;
+    font-size: 14px;
+    padding: 14px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.row.cta a:hover {
+    background-color: transparent;
+    border: 1px #f5f5f5 solid;
+}
+
+@media (max-width:768px) {
+    .row.content .l-text {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .row.content .r-text {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .row.content .r-text .i { 
+        height: 155px;
+    }
+}
+
+@media (max-width:575px) {
+    .row.content .l-text {
+        font-size: 34px;
+        line-height: 40px;
+        padding-right: 5px;
+    }
+    .row.content .r-text {
+        font-size: 34px;
+        line-height: 40px;
+        padding-left: 5px;
+    }
+
+    .row.content .r-text .i { 
+        height: 125px;
+        width: 5px;
+        left: 4px;
+    }
+}
+/*======== Content ========*/
+
+/*======== Contact ========*/
